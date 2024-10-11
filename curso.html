@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto Digital - Cursos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .navbar {
+            margin-bottom: 30px;
+            
+        }
+        .logo-contact {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .hero {
+            height: 60vh;
+            background: url('curso-hero.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+        .courses {
+            padding: 60px 0;
+            background: #343a40;
+            color: white;
+        }
+        .courses h2 {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 30px;
+        }
+        .courses .card {
+            margin: 15px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .courses .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        .courses .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .courses .card-title {
+            font-size: 1.5rem;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="th.jpg" alt="Impacto Digital Logo" class="logo-contact"> Impacto Digital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Preços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Nossos Cursos de Marketing Digital</h1>
+            <a href="#courses" class="btn btn-custom">Confira os Cursos</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses text-center">
+        <div class="container">
+            <h2>Aprenda com Especialistas</h2>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="4ps-model-of-marketing-mix-infographic-presentation-template-with-icons-has-4-steps-such-as-product-place-price-and-promotion-concept-for-offer-the-2W97T84.jpg" class="card-img-top" alt="Curso Básico">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing Digital Básico</h5>
+                            <p class="card-text">Para iniciantes que desejam entrar no mundo do marketing digital.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="oioi.jpg" class="card-img-top" alt="SEO Avançado">
+                        <div class="card-body">
+                            <h5 class="card-title">SEO Avançado</h5>
+                            <p class="card-text">Aumente a visibilidade do seu site com técnicas avançadas de SEO.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="oioioioiioo.jpg" class="card-img-top" alt="Gestão de Mídias Sociais">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestão de Mídias Sociais</h5>
+                            <p class="card-text">Gerencie suas redes sociais de forma profissional e atraia mais clientes.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-4">
+        <div class="container">
+            <p>&copy; 2024 Impacto Digital. Todos os direitos reservados.</p>
+            <p><a href="https://wa.me/1234567890" class="text-white">Fale conosco pelo WhatsApp</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
